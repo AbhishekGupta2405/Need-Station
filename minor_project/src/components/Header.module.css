@@ -1,0 +1,28 @@
+.header {
+  background-color: #fff8e1; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.navLink {
+  color: #000000; 
+  transition: color 0.3s; 
+  font-size: large;
+  font-weight: 500;
+}
+
+.navLink:hover {
+  color: #f022ff; 
+}
+
+.btnOutlineDark {
+  font-size: large;
+  font-weight: 500;
+  
+}
+
+.btnWarning {
+  background-color: #ffb13b; 
+  border: none;
+  font-size: large;
+  font-weight: 500;
+}

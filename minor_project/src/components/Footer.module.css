@@ -1,0 +1,41 @@
+.footer {
+  background-color: #343a40;
+  color: #ffffff;
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 100px;
+}
+
+.socialIcons, .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Space between icons/links */
+  padding: 0;
+  margin: 10px 0;
+}
+
+.socialIcons li, .menu li {
+  list-style: none; /* Removes the dots in front of list items */
+}
+
+.socialIcons li a, .menu li a {
+  color: #ffffff;
+  text-decoration: none; /* Removes underline from links */
+  font-size: 1.2em;
+  transition: 0.3s;
+}
+
+.socialIcons li a {
+  font-size: 2em; /* Increases the size of social icons */
+}
+
+.socialIcons li a:hover, .menu li a:hover {
+  color: #f8f9fa;
+  transform: translateY(-5px);
+}
+
+p {
+  margin-top: 15px;
+  font-size: 1.1rem;
+}
